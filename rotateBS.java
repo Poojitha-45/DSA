@@ -1,3 +1,4 @@
+// Search an element in sorted and rotated array
 class rotateBS{
     static int rotatesearch(int array[], int target) {
         // code here
