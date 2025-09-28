@@ -1,3 +1,4 @@
+// Trapping rain water problem
 class trappingwater {
     public int maxWater(int arr[]) {
         // code here
