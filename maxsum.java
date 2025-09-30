@@ -1,4 +1,5 @@
 // Maximum sum of sub Array with K elements
+//Sliding window Technique
 public class maxsum {
     public int maxSubarraySum(int[] arr, int k) {
         int n = arr.length;
