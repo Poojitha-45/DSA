@@ -1,3 +1,4 @@
+// To Search array with adjacent diff at most k
 public class Adjacent_diff {
     public int findStepKeyIndex(int[] arr, int k, int x) {
         // code here
@@ -5,12 +6,12 @@ public class Adjacent_diff {
         int i=0;
         //for(int i=0;i<n;)
         while(i<n){
-            if(arr[i]==x){
-            return i;
+            if(arr[i]==x){ // element found
+            return i; // returning the element
         }
-        int diff = Math.abs(arr[i]-x)/k;
-        diff = Math.max(1,diff);
-        i = i+diff;
+        int diff = Math.abs(arr[i]-x)/k; // calculating to skip  how  many steps 
+        diff = Math.max(1,diff); // to move atleast one step
+        i = i+diff; // moving according to the calculated steps
         }
         return -1;
     }
