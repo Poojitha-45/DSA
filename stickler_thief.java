@@ -1,3 +1,5 @@
+// A thief cannot loot two consecutive houses and aims to maximize his total loot.
+//using Dynamic programming
 public class stickler_thief {
     public int total(int arr[]){
         int n = arr.length;
@@ -17,6 +19,6 @@ public class stickler_thief {
     public static void main(String[] args) {
         stickler_thief s = new stickler_thief();
         int arr[] = {6, 5, 5, 7, 4};
-        System.out.println("Maximum loot: " + s.total(arr));
+        System.out.println("Maximum loot: " + s.total(arr));//15
     }
 }
