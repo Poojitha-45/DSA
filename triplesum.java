@@ -1,3 +1,5 @@
+// find the count of triplets (i, j, k), having (i<j<k) with the sum of (arr[i] + arr[j] + arr[k])
+//smaller than the given value sum
 import java.util.*;
 public class triplesum{
     long countTriplets(int n, int sum, long arr[]) {
