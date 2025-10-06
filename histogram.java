@@ -1,3 +1,4 @@
+ //To find the largest rectangular area possible in the given histogram
 import java.util.*;
 class Solution {
     public static int getMaxArea(int arr[]) {
