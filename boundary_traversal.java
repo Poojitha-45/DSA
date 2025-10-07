@@ -1,4 +1,4 @@
-//Boundary traversal
+//traversing the boundary
 import java.util.ArrayList;
 public class boundary_traversal {
     public ArrayList<Integer> boundaryTraversal(int mat[][]) {
