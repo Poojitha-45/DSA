@@ -1,4 +1,5 @@
 //KADANE'S ALGORITHM
+//To find the maximum subarray sum
 public class kadanes_Alg {
     public int sub_Array(int arr[]){
         int n = arr.length;
