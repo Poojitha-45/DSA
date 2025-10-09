@@ -1,4 +1,4 @@
-// SNAKE  PATTERN
+// SNAKE PATTERN
 import java.util.ArrayList;
 public class snake_pattern {
     static ArrayList<Integer> snakePattern(int matrix[][]) {
