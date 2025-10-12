@@ -24,6 +24,6 @@ public class fact_zero {
     public static void main(String args[]){
         int n = 6;
      fact_zero fz = new fact_zero();
-    System.out.println(fz.find(n));
+    System.out.println(fz.find(n));//output : 25
     }
 }
