@@ -1,3 +1,4 @@
+//Given an integer n, find the smallest positive integer x such that the factorial of x (i.e.,  x! ) contains at least n trailing zeroes.
 public class fact_zero {
     public int  zero(int x){
         int count =0;
