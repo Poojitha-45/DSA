@@ -44,6 +44,6 @@ public int minTime(int[] arr, int k) {
         int k =  3;
         painter_partition pt = new  painter_partition();
         int  result = pt.minTime(arr,k);
-        System.out.println("the optimal allocation of boards is : " + result);
+        System.out.println("the optimal allocation of boards is : " + result);// output : 35
     }
 }
