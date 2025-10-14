@@ -26,7 +26,7 @@ public class target_arr {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 7, 5};
         int target = 12;
-        System.out.println(subarraySum(arr, target));
+        System.out.println(subarraySum(arr, target));//  output:[2, 4]
     }
 }
 
