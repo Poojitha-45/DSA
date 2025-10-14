@@ -1,3 +1,6 @@
+//Given an array arr[] containing only non-negative integers, the task is to find a continuous subarray (a contiguous sequence of elements)
+//whose sum equals a specified value target. we need to return the 1-based indices of the leftmost and rightmost elements of this subarray. 
+//we need to find the first subarray whose sum is equal to the target.
 import java.util.*;
 public class target_arr {
     static ArrayList<Integer> subarraySum(int[] arr, int target) {
