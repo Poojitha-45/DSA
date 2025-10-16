@@ -23,6 +23,6 @@ public class histogram {
     public static void main(String[] args) {
         int arr[] = {6, 2, 5, 4, 5, 1, 6};
         int ans = Solution.getMaxArea(arr);
-        System.out.println("Maximum Area: " + ans);
+        System.out.println("Maximum Area: " + ans);// output : 12
     }
 }
