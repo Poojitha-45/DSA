@@ -1,3 +1,4 @@
+// to  find  the length of the last word
 public class last_word {
     public int findLength(String s) {
         // code here
@@ -11,6 +12,6 @@ public class last_word {
     public static void main(String[] args) {
         String s = "Hello World";
          last_word obj = new last_word();
-        System.out.println(obj.findLength(s));
+        System.out.println(obj.findLength(s)); // output - 5
     }
 }
