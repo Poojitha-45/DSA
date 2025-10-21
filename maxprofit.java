@@ -1,3 +1,5 @@
+//The cost of stock on each day is given in an array price[]. Each day you may decide to either buy or sell the stock i at price[i],
+//you can even buy and sell the stock on the same day. Find the maximum profit that you can get.
 public class maxprofit {
     public static int total(int[] prices) {
         int n = prices.length;
