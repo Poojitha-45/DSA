@@ -1,3 +1,5 @@
+//Given an integer array arr and an integer k,
+//return true if there are two distinct indices i and j in the array such that arr[i] == arr[j] and abs(i - j) <= k.
 import java.util.*;
 public class contains_duplicate {
     public boolean reoccur(int arr[] , int k){
