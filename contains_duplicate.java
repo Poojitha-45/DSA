@@ -20,6 +20,6 @@ public class contains_duplicate {
         int arr[] = {1,2,3,1};
         int k = 3;
         contains_duplicate obj = new contains_duplicate();
-        System.out.println(obj.reoccur(arr, k));
+        System.out.println(obj.reoccur(arr, k));// output : true
     }
 }
