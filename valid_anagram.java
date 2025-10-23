@@ -20,6 +20,6 @@ public class valid_anagram {
     public static void main(String args[]){
       String  s = "anagram";
       String t = "nagaram";
-      System.out.println(anagram(s,t));
+      System.out.println(anagram(s,t)); // output : true
     }
 }
