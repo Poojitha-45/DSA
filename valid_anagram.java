@@ -1,3 +1,5 @@
+// To check whether both strings are anagrams or not
+//Two strings are considered anagrams if they contain the same characters with exactly the same frequencies, regardless of their order.
 import java.util.*;
 public class valid_anagram {
     public static boolean anagram(String s , String t){
