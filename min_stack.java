@@ -1,3 +1,9 @@
+//Implement a class SpecialStack that supports following operations
+//push(x) – Insert an integer x into the stack.
+//pop() – Remove the top element from the stack.
+//peek() – Return the top element from the stack. If the stack is empty, return -1.
+//getMin() – Retrieve the minimum element from the stack in O(1) time. If the stack is empty, return -1.
+//isEmpty() –  Return true if stack is empty, else false
 import java.util.*;
 class min_stack{
     public Stack<Integer> st;
@@ -49,7 +55,6 @@ class min_stack{
         s.pop();         // pop -> removes 3
         System.out.println("getMin(): " + s.getMin());  // [2]
         s.push(1);       // push 1
-        System.out.println("getMin(): " + s.getMin());
-
+        System.out.println("getMin(): " + s.getMin());           // output : peek(): 3 //getMin(): 2     //getMin(): 1
  }
 }
