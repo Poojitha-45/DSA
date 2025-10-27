@@ -1,3 +1,5 @@
+// Remove Outermost Parentheses
+//For example, "", "()", "(())()", and "(()(()))" are all valid parentheses strings.
 import java.util.*;
 public class remove_outer {
     public String removeOuterParenthesis(String s){
@@ -24,6 +26,6 @@ public class remove_outer {
         String s = "(()())(())";
         String ans = sol.removeOuterParenthesis(s);
         System.out.println("Input: " + s);
-        System.out.println("Output: " + ans);
+        System.out.println("Output: " + ans); // output : ()()()
     }
 }
