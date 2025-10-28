@@ -1,3 +1,4 @@
+// sort the given stack in increasing order
 import java.util.*;
 public class sort_stack {
     public static void stack_sort(Stack<Integer> st){
@@ -24,8 +25,8 @@ public class sort_stack {
         st.push(2);
         st.push(11);
 
-        System.out.println("Original Stack: " + st);
+        System.out.println("Original Stack: " + st); // [41, 3, 32, 2, 11]
         stack_sort(st);
-        System.out.println("Sorted Stack: " + st);
+        System.out.println("Sorted Stack: " + st); // output : [2, 3, 11, 32, 41]
         }
  }
