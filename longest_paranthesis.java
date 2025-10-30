@@ -1,3 +1,4 @@
+//Given a string containing just the characters '(' and ')', return the length of the longest valid (well-formed) parentheses substring.
 import java.util.*;
 public class longest_paranthesis {
     public static int longestValidParanthesis(String s){
@@ -22,6 +23,6 @@ public class longest_paranthesis {
     }
     public static void main(String args[]){
         String s=  ")()())";
-        System.out.println("longest valis paranthesis length:" +longestValidParanthesis(s));
+        System.out.println("longest valid paranthesis length:" +longestValidParanthesis(s));// output : longest valid paranthesid length:4
     }
 }
